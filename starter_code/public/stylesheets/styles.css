@@ -5,4 +5,130 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: gray;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgba(145, 145, 145, 0.481);
+    width: 100vw;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #2081C3;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+}
+
+nav ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin: 30px;
+    flex-direction: row;
+    color: #F7F9F9;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F7F9F9;
+    font-size: 20px;
+}
+
+.index-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.index-container img {
+    margin: 20px auto 10px;
+    width: 250px;
+}
+
+.index-container button {
+    margin: 10px auto;
+    padding: 8px;
+    background-color: #2081C3;
+    width: 200px;
+    color: #F7F9F9;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 12px 0 rgba(0,0,0,0.19);
+}
+
+.index-container button:hover {
+    margin: 10px auto;
+    padding: 8px;
+    background-color: #2081C3;
+    width: 200px;
+    color: #F7F9F9;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
+}
+
+.beergrit {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.beerinfo {
+    margin: 20px;
+    width:25%;
+}
+
+.beerinfo img {
+    display: flex;
+    justify-self: center;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.randombeer-info {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.randombeer-info img{
+    height: 300px;
+}
+
+.beer-info-list {
+    margin: 30px;
+}
+
+footer {
+    display: flex;
+    align-self: flex-end;
+    margin: 0 auto;
+    background-color: #0A2C42;
+    width: 100vw;
+}
+
+footer p {
+    padding: 20px;
+    color: #F7F9F9;
+}
   
